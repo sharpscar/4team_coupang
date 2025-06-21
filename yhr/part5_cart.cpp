@@ -157,7 +157,7 @@ void part5_cart::sendOrderToserver() {
     req["store_name"] = UserState::getInstance().cart.storeName;
     req["total_price"] = UserState::getInstance().cart.totalPrice;
     req["eat_type"] = UserState::getInstance().cart.eatType;
-    req["business_num"] = "150-18-00159";
+    req["business_num"] = "11111111111";
     QJsonArray menuArray;
 
     // 장바구니 데이터

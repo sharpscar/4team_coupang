@@ -25,7 +25,7 @@ void login::do_login(){
     QJsonObject req;
     req["signal"]= "login";
     req["role"] = "store";
-    req["biz_num"] ="150-18-00159";
+    req["biz_num"] ="1111";
     req["id"]=ui->id_le->text();
     req["pw"]=ui->pass_le->text();
     client->sendJson(req);
