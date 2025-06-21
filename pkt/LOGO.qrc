@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/coueats_logo.png</file>
+        <file>images/coucoueats_logo.png</file>
+        <file>images/KYOCHON.jpg</file>
+        <file>images/kyochon.jpg</file>
+        <file>images/logo.png</file>
+    </qresource>
+</RCC>

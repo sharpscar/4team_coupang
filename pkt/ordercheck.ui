@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Ordercheck</class>
+ <widget class="QWidget" name="Ordercheck">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>120</width>
+     <height>500</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Shape::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Shadow::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="btn_menu">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>370</y>
+      <width>88</width>
+      <height>110</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #F5F5F5;
+    border: 2px solid #D3D3D3;
+    border-radius: 30px;
+    font-size: 16px;
+    color: black;
+}
+
+QPushButton:hover {
+    background-color: #E0E0E0;
+    border: 2px solid #B0B0B0;
+}
+
+QPushButton:pressed {
+    background-color: #C0C0C0;
+    border: 2px solid #A0A0A0;
+}</string>
+    </property>
+    <property name="text">
+     <string>메뉴 관리</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_time">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>250</y>
+      <width>88</width>
+      <height>110</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>110</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #F5F5F5;
+    border: 2px solid #D3D3D3;
+    border-radius: 30px;
+    font-size: 16px;
+    color: black;
+}
+
+QPushButton:hover {
+    background-color: #E0E0E0;
+    border: 2px solid #B0B0B0;
+}
+
+QPushButton:pressed {
+    background-color: #C0C0C0;
+    border: 2px solid #A0A0A0;
+}</string>
+    </property>
+    <property name="text">
+     <string>영업시간관리</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_order">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>130</y>
+      <width>88</width>
+      <height>110</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #F5F5F5;
+    border: 2px solid #D3D3D3;
+    border-radius: 30px;
+    font-size: 16px;
+    color: black;
+}
+
+QPushButton:hover {
+    background-color: #E0E0E0;
+    border: 2px solid #B0B0B0;
+}
+
+QPushButton:pressed {
+    background-color: #C0C0C0;
+    border: 2px solid #A0A0A0;
+}</string>
+    </property>
+    <property name="text">
+     <string>주문확인</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_home">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>88</width>
+      <height>110</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #F5F5F5;
+    border: 2px solid #D3D3D3;
+    border-radius: 30px;
+    font-size: 16px;
+    color: black;
+}
+
+QPushButton:hover {
+    background-color: #E0E0E0;
+    border: 2px solid #B0B0B0;
+}
+
+QPushButton:pressed {
+    background-color: #C0C0C0;
+    border: 2px solid #A0A0A0;
+}</string>
+    </property>
+    <property name="text">
+     <string>홈</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>160</y>
+     <width>321</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>319</width>
+      <height>319</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="verticalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>301</width>
+       <height>311</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="on_place_cards_layout"/>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>160</y>
+     <width>431</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Shape::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Shadow::Raised</enum>
+   </property>
+   <widget class="QTableWidget" name="order_detail_tw">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>411</width>
+      <height>311</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="order_serialNumber">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>30</y>
+     <width>141</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>25</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>20</y>
+     <width>301</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="LOGO.qrc">:/images/kyochon.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_order_time">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>80</y>
+     <width>161</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>25</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="LOGO.qrc"/>
+ </resources>
+ <connections/>
+</ui>

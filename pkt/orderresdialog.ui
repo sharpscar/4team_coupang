@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OrderResDialog</class>
+ <widget class="QDialog" name="OrderResDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>555</width>
+    <height>308</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>140</y>
+     <width>491</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="btn10min">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #F5F5F5;
+    border: 2px solid #D3D3D3;
+    border-radius: 30px;
+    font-size: 16px;
+    color: black;
+}
+
+QPushButton:hover {
+    background-color: #E0E0E0;
+    border: 2px solid #B0B0B0;
+}
+
+QPushButton:pressed {
+    background-color: #C0C0C0;
+    border: 2px solid #A0A0A0;
+}</string>
+      </property>
+      <property name="text">
+       <string>10분</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn20min">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #F5F5F5;
+    border: 2px solid #D3D3D3;
+    border-radius: 30px;
+    font-size: 16px;
+    color: black;
+}
+
+QPushButton:hover {
+    background-color: #E0E0E0;
+    border: 2px solid #B0B0B0;
+}
+
+QPushButton:pressed {
+    background-color: #C0C0C0;
+    border: 2px solid #A0A0A0;
+}</string>
+      </property>
+      <property name="text">
+       <string>20분</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn30min">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #F5F5F5;
+    border: 2px solid #D3D3D3;
+    border-radius: 30px;
+    font-size: 16px;
+    color: black;
+}
+
+QPushButton:hover {
+    background-color: #E0E0E0;
+    border: 2px solid #B0B0B0;
+}
+
+QPushButton:pressed {
+    background-color: #C0C0C0;
+    border: 2px solid #A0A0A0;
+}</string>
+      </property>
+      <property name="text">
+       <string>30분</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnReject">
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #F5F5F5;
+    border: 2px solid #D3D3D3;
+    border-radius: 30px;
+    font-size: 16px;
+    color: black;
+}
+
+QPushButton:hover {
+    background-color: #E0E0E0;
+    border: 2px solid #B0B0B0;
+}
+
+QPushButton:pressed {
+    background-color: #C0C0C0;
+    border: 2px solid #A0A0A0;
+}</string>
+      </property>
+      <property name="text">
+       <string>거절</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTableView" name="tv_dialog">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>491</width>
+     <height>111</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

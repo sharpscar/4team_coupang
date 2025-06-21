@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>rider_img/yesom_resize_start_dil2.png</file>
+        <file>rider_img/yesom_resize_start_dil3.png</file>
+        <file>rider_img/rider.drawio.png</file>
+        <file>rider_img/btn12.png</file>
+        <file>rider_img/yesom_resize_upbar.png</file>
+        <file>rider_img/upbar.png</file>
+        <file>rider_img/rider_main.jpg</file>
+        <file>rider_img/coucoueats_logo.png</file>
+        <file>rider_img/coucou_logo_width.png</file>
+        <file>rider_img/left.png</file>
+        <file>rider_img/makeid_messagebox.png</file>
+        <file>rider_img/makeid_3.png</file>
+    </qresource>
+</RCC>

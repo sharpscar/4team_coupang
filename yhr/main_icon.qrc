@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>mainIcon/addr.png</file>
+        <file>mainIcon/addr_more.png</file>
+        <file>mainIcon/advertising.jpg</file>
+        <file>mainIcon/alarm.png</file>
+        <file>mainIcon/rds_logo_wowmembership.png</file>
+        <file>mainIcon/right.jpg</file>
+        <file>mainIcon/serch.png</file>
+        <file>mainIcon/StartIMG.png</file>
+        <file>mainIcon/uniform_icon_1.png</file>
+        <file>mainIcon/uniform_icon_2.png</file>
+        <file>mainIcon/uniform_icon_3.png</file>
+        <file>mainIcon/uniform_icon_4.png</file>
+        <file>mainIcon/uniform_icon_5.png</file>
+        <file>mainIcon/wow_event.jpg</file>
+        <file>mainIcon/ic_map_pin.png</file>
+    </qresource>
+</RCC>

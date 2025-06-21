@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>review/review_1.png</file>
+        <file>review/review_2.png</file>
+        <file>review/review_3.png</file>
+        <file>review/review_4.png</file>
+        <file>review/review_5.png</file>
+    </qresource>
+</RCC>
